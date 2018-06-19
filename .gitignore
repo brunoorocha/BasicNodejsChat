@@ -1,0 +1,4 @@
+NodeChat/
+node_modules/
+*.zip
+nodestart.js

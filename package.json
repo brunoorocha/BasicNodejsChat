@@ -1,0 +1,9 @@
+{
+  "name": "FLISOL-NodeChat",
+  "version": "0.0.1",
+  "description": "Chat simples baseado em web sockets",
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^1.7.3"
+  }
+}

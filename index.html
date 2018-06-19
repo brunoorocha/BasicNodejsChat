@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Chat com Node.js</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="./js/scripts.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link rel="stylesheet" href="/css/chat.style.css">
+  </head>
+  <body>
+    <div shorturl="http://bit.ly/2o6uKkI"></div>
+    <div class="chat">
+      <aside id="users-online-list" class="users-online-list">
+        <header>
+          <h3>Online</h3>
+        </header>
+        <!-- <div class="user-online">brunorocha</div> -->
+
+      </aside>
+
+      <section class="conversations">
+        <header>
+          <h3>Conversa</h3>
+        </header>
+        <div id="bubble-area" class="bubble-area">
+          <!-- <div class="chat-row">
+            <div class="chat-bubble">Blá blá blá</div>
+            <span class="user-name">jeff</span>
+          </div> -->
+        </div>
+
+        <textarea id="speak" name="speak" placeholder="Digite aqui.."></textarea>
+      </section>
+    </div>
+
+    <div class="login" id="login">
+      <form action="./" method="post" id="login-form">
+        <h1>NodeChat</h1>
+        <label for="nickname">Nick: </label><input type="text" id="nickname" name="nickname" value="">
+
+        <input type="submit" name="" value="Entrar">
+      </form>
+    </div>
+  </body>
+</html>
